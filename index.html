@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LA GYOZERÍA — Asian Street Food · Madrid · FACA Challenge II</title>
+  <meta name="description" content="La Gyozería: gyozas desde 2 € en un local compacto de 30 m² en Madrid. Concepto gastronómico escalable y modelo financiero completo (VAN +31.324 €, TIR 28,3%)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- TOP NAVIGATION -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-stamp">餃</span>
+        <span class="brand-name">LA GYOZERÍA</span>
+        <span class="brand-tag">MAD // 2027</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="#concepto">01. Concepto</a>
+        <a href="#carta">02. Carta</a>
+        <a href="#local">03. El Local</a>
+        <a href="#finanzas">04. Finanzas</a>
+        <a href="#riesgo">05. Riesgo</a>
+      </nav>
+      <a href="#finanzas" class="btn btn-primary btn-sm">Ver Modelo ↓</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="dot"></span>
+            <span>FACA CHALLENGE II · ICAI · MADRID 2027</span>
+          </div>
+          <h1 class="hero-title">
+            GYOZAS A <span class="accent-red">2 €</span>.<br />
+            MODELO DE <span class="highlight-yuzu">320K €</span>.
+          </h1>
+          <p class="hero-lead">
+            No somos otro restaurante asiático de carta infinita. Somos un <strong>street-food bar de 30 m²</strong> en Moncloa–Argüelles, hiperespecializado en un solo producto icónico, con <strong>operativa ultra-ligera</strong>, capital circulante negativo y formato 100% replicable.
+          </p>
+          <div class="hero-actions">
+            <a href="#finanzas" class="btn btn-primary">Explorar Viabilidad →</a>
+            <a href="#carta" class="btn btn-outline">Ver la Carta (desde 2 €)</a>
+          </div>
+          <div class="hero-kpis">
+            <div class="kpi-mini">
+              <span class="mono-label">INVERSIÓN CAPEX</span>
+              <strong class="display-num">40.000 €</strong>
+              <span class="kpi-sub">47,5k € desembolso total Y0</span>
+            </div>
+            <div class="kpi-mini">
+              <span class="mono-label">RENTABILIDAD BASE</span>
+              <strong class="display-num accent-red">28,3% TIR</strong>
+              <span class="kpi-sub">VAN +31.324 € (k = 12%)</span>
+            </div>
+            <div class="kpi-mini">
+              <span class="mono-label">FORMATO LOCAL</span>
+              <strong class="display-num">30 m²</strong>
+              <span class="kpi-sub">Sin comedor · 200 ped/día cap.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="photo-frame">
+            <img src="assets/hero-gyozas.jpg" alt="Gyozas crujientes recién hechas a la plancha en caja takeaway de La Gyozería con aceite de chile y cebollino" />
+            <div class="photo-badge top-left">
+              <span class="mono-xs">COSTE UNITARIO CLÁSICA</span>
+              <strong>0,20 € / UD</strong>
+            </div>
+            <div class="photo-badge bottom-right yuzu">
+              <span class="mono-xs">PRODUCTO GANCHO</span>
+              <strong>3 GYOZAS · 2,00 €</strong>
+            </div>
+          </div>
+          <div class="coord-bar">
+            <span>40.4355° N, 3.7192° W · MONCLOA–ARGÜELLES</span>
+            <span>OPEN 12:00–23:00 · 300 DÍAS/AÑO</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFINITE MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>3 GYOZAS POR 2,00 €</span><span class="sep">✦</span>
+        <span>SIN COMEDOR · MÁXIMA ROTACIÓN</span><span class="sep">✦</span>
+        <span>30 M² EN MADRID</span><span class="sep">✦</span>
+        <span>TICKET MEDIO 7,54 €</span><span class="sep">✦</span>
+        <span>NWC NEGATIVO</span><span class="sep">✦</span>
+        <span>VAN +31.324 €</span><span class="sep">✦</span>
+        <span>TIR 28,3%</span><span class="sep">✦</span>
+        <span>PAYBACK 2,97 AÑOS</span><span class="sep">✦</span>
+        <span>3 GYOZAS POR 2,00 €</span><span class="sep">✦</span>
+        <span>SIN COMEDOR · MÁXIMA ROTACIÓN</span><span class="sep">✦</span>
+        <span>30 M² EN MADRID</span><span class="sep">✦</span>
+        <span>TICKET MEDIO 7,54 €</span><span class="sep">✦</span>
+        <span>NWC NEGATIVO</span><span class="sep">✦</span>
+        <span>VAN +31.324 €</span><span class="sep">✦</span>
+        <span>TIR 28,3%</span><span class="sep">✦</span>
+        <span>PAYBACK 2,97 AÑOS</span><span class="sep">✦</span>
+      </div>
+    </div>
+
+    <!-- SECTION 01: EL CONCEPTO & PITCH (BENTO GRID) -->
+    <section id="concepto" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">01 // EL CONCEPTO &amp; PROPUESTA DE VALOR</span>
+          <h2 class="section-title">EL MODELO MALVÓN APLICADO AL <span class="accent-red">ASIAN STREET FOOD</span>.</h2>
+        </div>
+
+        <div class="bento-grid">
+          <article class="bento-card span-2 reveal">
+            <div class="card-top">
+              <span class="mono-pill">EL HUECO DE MERCADO</span>
+              <span class="mono-num">6.100 M€</span>
+            </div>
+            <h3>Un mercado fast-food en auge, pero sin un líder low-cost de gyozas</h3>
+            <p>
+              La restauración rápida en España factura <strong>6.100 M€</strong> y crece al <strong>+4,3% anual</strong> (DBK 2026). En Madrid, competidores como <em>Gyoza GO</em> o <em>Chun-Li Dumplings</em> ya validaron la demanda, pero el mercado sigue polarizado entre restaurantes asiáticos lentos o tickets medios altos. <strong>La Gyozería</strong> ataca el espacio vacío: un formato ágil de <em>grab &amp; go</em> con raciones desde <strong>2,00 €</strong> y comidas completas por menos de <strong>9,00 €</strong>.
+            </p>
+            <div class="tag-row">
+              <span class="mini-tag">vs. Kebabs &amp; Empanadas</span>
+              <span class="mini-tag">Consumo non-stop 12h–23h</span>
+              <span class="mini-tag">Impulso + Menú + Sharing</span>
+            </div>
+          </article>
+
+          <article class="bento-card card-red reveal">
+            <div class="card-top">
+              <span class="mono-pill light">UNIT ECONOMICS</span>
+              <span class="mono-num">52,4%</span>
+            </div>
+            <h3>Margen neto de contribución tras delivery</h3>
+            <p>
+              Compramos gyozas artesanales congeladas a proveedor especializado (<strong>0,20 €/ud clásica</strong>) y hacemos la cocción final a la plancha/vapor en tienda. Eso elimina mano de obra intensiva de obrador y deja <strong>3,59 € de margen por pedido</strong> en Año 1, ya descontadas las comisiones del 30% de Glovo/Uber Eats y un 3% de merma.
+            </p>
+          </article>
+
+          <article class="bento-card reveal">
+            <div class="card-top">
+              <span class="mono-pill">PÚBLICO OBJETIVO</span>
+              <span class="mono-num">18–35</span>
+            </div>
+            <h3>Estudiantes, oficina y grupos de fin de semana</h3>
+            <p>
+              Ubicados en zona universitaria y de oficinas (Moncloa–Argüelles). El <strong>60% de los pedidos</strong> son menús completos de mediodía/noche, el <strong>27%</strong> compras de impulso entre clases y el <strong>13%</strong> packs de 20–40 gyozas para compartir.
+            </p>
+          </article>
+
+          <article class="bento-card reveal">
+            <div class="card-top">
+              <span class="mono-pill">DIGITAL &amp; SOSTENIBLE</span>
+              <span class="mono-num">3% MERMA</span>
+            </div>
+            <h3>Order-ahead sin colas + Too Good To Go</h3>
+            <p>
+              Web externa de pedidos anticipados con código de recogida (cero desarrollo de app propia en fase inicial) para maximizar venta directa (<strong>75% en tienda</strong> frente a 25% apps). Excedentes canalizados vía <em>Too Good To Go</em>.
+            </p>
+          </article>
+
+          <article class="bento-card card-yuzu reveal">
+            <div class="card-top">
+              <span class="mono-pill dark">VENTAJA FINANCIERA</span>
+              <span class="mono-num">−17,5 d</span>
+            </div>
+            <h3>Capital circulante negativo</h3>
+            <p>
+              Cobramos en tienda al contado/tarjeta (75%) y en ~10 días en delivery (25%), mientras pagamos a proveedores a <strong>30 días</strong>. Resultado: crecer genera caja (<strong>+5.916 €</strong> de entrada por NWC en Año 1).
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02: EL PRODUCTO / LA CARTA -->
+    <section id="carta" class="section section-alt">
+      <div class="container">
+        <div class="section-head split reveal">
+          <div>
+            <span class="section-tag">02 // EL PRODUCTO &amp; ARQUITECTURA DE PRECIOS</span>
+            <h2 class="section-title">UNA SOLA ESTRELLA.<br />ONCE FORMATOS DE COMPRA.</h2>
+          </div>
+          <div class="menu-summary-box">
+            <div class="ms-item">
+              <span class="mono-xs">TICKET PONDERADO</span>
+              <strong>7,54 €</strong>
+              <span class="mono-xs muted">6,85 € sin IVA (10%)</span>
+            </div>
+            <div class="ms-item">
+              <span class="mono-xs">MEDIA POR PEDIDO</span>
+              <strong>9,7 uds</strong>
+              <span class="mono-xs muted">gyozas / pedido</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flavor Strip -->
+        <div class="flavor-strip reveal">
+          <div class="flavor-group">
+            <span class="mono-pill">CLÁSICAS · 0,20 €/UD COSTE</span>
+            <p><strong>Cerdo, col y jengibre</strong> · <strong>Pollo con verduras</strong> · <strong>Vegetal</strong></p>
+          </div>
+          <div class="flavor-group">
+            <span class="mono-pill red">PREMIUM · 0,32 €/UD COSTE</span>
+            <p><strong>Langostino y cebollino</strong> · <strong>Pollo coreano picante</strong> · <strong>Setas con queso</strong> + <em>Gyoza del Mes</em></p>
+          </div>
+        </div>
+
+        <div class="menu-layout">
+          <div class="menu-left reveal">
+            <div class="filter-bar" role="tablist" aria-label="Filtrar carta por categoría">
+              <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Toda la carta (11)</button>
+              <button class="filter-btn" data-filter="single" role="tab" aria-selected="false">Individuales · 27%</button>
+              <button class="filter-btn" data-filter="menu" role="tab" aria-selected="false">Menús · 60%</button>
+              <button class="filter-btn" data-filter="pack" role="tab" aria-selected="false">Packs · 13%</button>
+            </div>
+            <div id="menu-list" class="menu-list">
+              <!-- Populated by app.js from Assumptions!D3 -->
+            </div>
+          </div>
+
+          <aside class="menu-right reveal">
+            <div class="photo-frame square">
+              <img src="assets/packs-sharing.jpg" alt="Friends Pack de 20 gyozas doradas con arroz salteado al ajo, cebollino y bebidas frías" />
+              <div class="photo-badge top-left">
+                <span class="mono-xs">CORE PRODUCT · 30% PEDIDOS</span>
+                <strong>MENÚ COMPLETO · 7,50 €</strong>
+              </div>
+            </div>
+            <div class="spec-card">
+              <span class="mono-xs">ESTRATEGIA DE PRICING</span>
+              <h4>Gancho de 2 € + Upselling a Menú y Pack</h4>
+              <p>
+                La ración de <strong>3 gyozas a 2,00 €</strong> (margen 60% antes de delivery) actúa como imán peatonal. Una vez en mostrador, el 60% convierte a <strong>Menú Express/Completo/XL</strong> (con arroz salteado y bebida) y los fines de semana el ticket salta hasta <strong>24,50 €</strong> con el Party Pack de 40 unidades en bloques de 5 sabores.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 03: LA EXPERIENCIA DEL LOCAL -->
+    <section id="local" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">03 // EL LOCAL COMO PARTE DEL PRODUCTO</span>
+          <h2 class="section-title">30 M² DISEÑADOS PARA <span class="accent-red">VELOCIDAD</span> Y ESCALA.</h2>
+        </div>
+
+        <div class="local-grid">
+          <div class="local-photo reveal">
+            <div class="photo-frame">
+              <img src="assets/local-bar.jpg" alt="Interior moderno de 30 m² de La Gyozería con barra de acero inoxidable, planchas abiertas y estética street-food contemporánea" />
+              <div class="photo-badge bottom-left">
+                <span class="mono-xs">ALQUILER OBJETIVO</span>
+                <strong>1.500 €/MES · 50 €/M²</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="local-specs reveal">
+            <div class="spec-row">
+              <span class="spec-code">LOC // 01</span>
+              <div>
+                <h4>Sin comedor tradicional, cero cuellos de botella</h4>
+                <p>Cocina compacta a la vista (2 planchas de gyozas + vaporera + arrozera), mostrador de entrega ágil y pequeña barra de apoyo. Sin mesas que limiten la rotación.</p>
+              </div>
+            </div>
+            <div class="spec-row">
+              <span class="spec-code">OPS // 02</span>
+              <div>
+                <h4>2,5 FTE y 11 horas non-stop (12:00–23:00)</h4>
+                <p>1 encargado/jefe de cocina (salario de mercado incluido incluso si opera un socio: coste de oportunidad) + 1 jornada completa + 1 media jornada para picos de comida y cena. 6 días/semana, 50 semanas/año.</p>
+              </div>
+            </div>
+            <div class="spec-row">
+              <span class="spec-code">CAP // 03</span>
+              <div>
+                <h4>Capacidad de 200 pedidos/día · Uso maduro al 70%</h4>
+                <p>Arrancamos en 95 pedidos/día (Año 1) y maduramos en 140–145 pedidos/día (Años 3–4), dejando un 28–30% de colchón operativo antes de saturar cocina.</p>
+              </div>
+            </div>
+            <div class="spec-row">
+              <span class="spec-code">INV // 04</span>
+              <div>
+                <h4>Capex llave en mano de 40.000 € (amortizado en 5 años)</h4>
+                <p>16.000 € maquinaria cocina · 14.000 € obra, instalaciones y licencia · 5.000 € mobiliario/barra · 3.000 € TPV y tablets · 2.000 € menaje (+ 2.500 € reposición en Año 2).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 04: VIABILIDAD FINANCIERA INTERACTIVA (DARK TERMINAL) -->
+    <section id="finanzas" class="section section-dark">
+      <div class="container">
+        <div class="section-head split reveal">
+          <div>
+            <span class="section-tag yuzu-text">04 // VIABILIDAD FINANCIERA · FACA CHALLENGE II</span>
+            <h2 class="section-title light">LOS NÚMEROS DEL MODELO,<br />EN TIEMPO REAL.</h2>
+          </div>
+          <div class="scenario-switcher" role="group" aria-label="Selector de escenario financiero">
+            <button class="scen-btn" data-scenario="pessimistic">1 · Pesimista</button>
+            <button class="scen-btn active" data-scenario="base">2 · Base</button>
+            <button class="scen-btn" data-scenario="optimistic">3 · Optimista</button>
+          </div>
+        </div>
+
+        <p id="scenario-desc" class="scenario-desc reveal">
+          Escenario Base: 95 → 145 pedidos/día, ticket 7,54 € (+2,5–3%/año), 25% delivery, tasa de descuento nominal 12,0% (Bono 10Y 4,2% + prima 7,8%).
+        </p>
+
+        <!-- LIVE KPI BENTO -->
+        <div class="fin-kpi-grid reveal">
+          <div class="fin-card highlight">
+            <span class="mono-xs">VAN (k = 12% NOMINAL)</span>
+            <strong id="kpi-npv" class="fin-big">+31.324 €</strong>
+            <span id="kpi-decision" class="decision-badge accept">ACCEPT · VAN &gt; 0</span>
+          </div>
+          <div class="fin-card">
+            <span class="mono-xs">TIR (IRR)</span>
+            <strong id="kpi-irr" class="fin-big">28,3%</strong>
+            <span id="kpi-spread" class="mono-xs muted">+16,3 pp sobre coste de capital</span>
+          </div>
+          <div class="fin-card">
+            <span class="mono-xs">ÍNDICE RENTABILIDAD (PI)</span>
+            <strong id="kpi-pi" class="fin-big">1,66x</strong>
+            <span class="mono-xs muted">VP flujos / 47.500 € iniciales</span>
+          </div>
+          <div class="fin-card">
+            <span class="mono-xs">PAYBACK SIMPLE / DESC.</span>
+            <strong id="kpi-payback" class="fin-big">2,97 a</strong>
+            <span id="kpi-dpayback" class="mono-xs muted">Descontado: 3,51 años</span>
+          </div>
+        </div>
+
+        <!-- INTERACTIVE CFFA CHART + SUMMARY -->
+        <div class="chart-panel reveal">
+          <div class="chart-header">
+            <div>
+              <span class="mono-xs yuzu-text">CASH FLOW FROM ASSETS (CFFA = OCF − NCS − ΔNWC)</span>
+              <h3>Flujos de caja anuales del proyecto (Y0–Y5, € nominales)</h3>
+            </div>
+            <div class="chart-totals">
+              <div>
+                <span class="mono-xs muted">VENTAS Y3</span>
+                <strong id="kpi-sales-y3">303.820 €</strong>
+              </div>
+              <div>
+                <span class="mono-xs muted">EBIT Y3</span>
+                <strong id="kpi-ebit-y3">29.079 €</strong>
+              </div>
+              <div>
+                <span class="mono-xs muted">CFFA TOTAL Y0–Y5</span>
+                <strong id="kpi-cffa-total" class="yuzu-text">+73.768 €</strong>
+              </div>
+            </div>
+          </div>
+
+          <div id="cffa-chart" class="cffa-chart" aria-label="Gráfico de barras de Cash Flow From Assets por año">
+            <!-- Populated dynamically by app.js -->
+          </div>
+
+          <div class="chart-footnote">
+            <span><strong>Y0 (−47.500 €):</strong> 40k Capex + 3k fianza LAU + 4,5k NWC inicial.</span>
+            <span><strong>Fiscalidad España:</strong> IS 15% nueva entidad (2 primeros años positivos), 17% microempresa (&lt;50k €), amortización acelerada ×2 (art. 103 LIS) y compensación de BINs (art. 26 LIS).</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 05: RIESGO, SENSIBILIDAD Y OPCIONES REALES -->
+    <section id="riesgo" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">05 // ANÁLISIS DE RIESGO, SENSIBILIDAD &amp; OPCIONES REALES</span>
+          <h2 class="section-title">TRANSPARENCIA TOTAL:<br />DÓNDE ESTÁ EL RIESGO Y CÓMO SE CUBRE.</h2>
+        </div>
+
+        <div class="risk-grid">
+          <!-- Sensitivity Tornado -->
+          <div class="risk-card span-2 reveal">
+            <div class="card-top">
+              <span class="mono-pill">SENSIBILIDAD (UN DRIVER A LA VEZ · IMPACTO EN VAN)</span>
+              <span class="mono-xs muted">Base = +31.324 €</span>
+            </div>
+            <h3>Los pedidos/día explican el 46% del riesgo a la baja</h3>
+            <p class="risk-sub">
+              Es la única variable que, por sí sola en su rango pesimista (−15%), vuelve el VAN negativo (−37.159 €). El punto crítico (<em>switching value</em>) está en <strong>−7,2% de pedidos</strong> (~130 pedidos/día en Año 3) o un <strong>−4,1% en ticket medio</strong>.
+            </p>
+            <div class="tornado-list">
+              <div class="tornado-row">
+                <div class="t-label"><strong>Pedidos / día</strong> <span>(−15% / +10%)</span></div>
+                <div class="t-bars">
+                  <div class="t-neg" style="width: 100%"><span>−68.482 €</span></div>
+                  <div class="t-axis"></div>
+                  <div class="t-pos" style="width: 63%"><span>+43.132 €</span></div>
+                </div>
+              </div>
+              <div class="tornado-row">
+                <div class="t-label"><strong>Coste comida y envase</strong> <span>(+8% / −5%)</span></div>
+                <div class="t-bars">
+                  <div class="t-neg" style="width: 39%"><span>−26.826 €</span></div>
+                  <div class="t-axis"></div>
+                  <div class="t-pos" style="width: 25%"><span>+16.894 €</span></div>
+                </div>
+              </div>
+              <div class="tornado-row">
+                <div class="t-label"><strong>Ticket medio</strong> <span>(−3% / +3%)</span></div>
+                <div class="t-bars">
+                  <div class="t-neg" style="width: 34%"><span>−23.064 €</span></div>
+                  <div class="t-axis"></div>
+                  <div class="t-pos" style="width: 33%"><span>+22.764 €</span></div>
+                </div>
+              </div>
+              <div class="tornado-row">
+                <div class="t-label"><strong>Costes fijos</strong> <span>(+5% / −3%)</span></div>
+                <div class="t-bars">
+                  <div class="t-neg" style="width: 27%"><span>−18.160 €</span></div>
+                  <div class="t-axis"></div>
+                  <div class="t-pos" style="width: 16%"><span>+11.094 €</span></div>
+                </div>
+              </div>
+              <div class="tornado-row">
+                <div class="t-label"><strong>Peso Delivery apps</strong> <span>(30% / 20%)</span></div>
+                <div class="t-bars">
+                  <div class="t-neg" style="width: 18%"><span>−12.576 €</span></div>
+                  <div class="t-axis"></div>
+                  <div class="t-pos" style="width: 18%"><span>+12.576 €</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DOL Card -->
+          <div class="risk-card card-ink reveal">
+            <span class="mono-pill yuzu-pill">APALANCAMIENTO OPERATIVO</span>
+            <div class="dol-big">5,42x</div>
+            <h4>DOL en Año 3 (Margen de seguridad: 18,4%)</h4>
+            <p>
+              Los costes fijos (119,7k € + amortización) absorben el 76% del margen de contribución en madurez. Una caída del 10% en ventas recorta el EBIT un <strong>54%</strong>. Incluso con una tasa de descuento exigente del <strong>16%</strong>, el proyecto mantiene un VAN positivo de <strong>+21.586 €</strong>.
+            </p>
+          </div>
+
+          <!-- Real Options -->
+          <div class="risk-card reveal">
+            <span class="mono-pill">OPCIÓN REAL 01 · DEFENSA</span>
+            <h4>Opción de Abandono tras Año 1</h4>
+            <p>
+              Si el local no alcanza tracción en el primer año (escenario pesimista: −41k € en Y1), cerrar a tiempo evita perder otros <strong>52k €</strong> en Y2–Y5, recuperando la fianza (3.000 €) y un mayor valor de reventa de la maquinaria seminueva.
+            </p>
+          </div>
+
+          <div class="risk-card card-yuzu reveal">
+            <span class="mono-pill dark">OPCIÓN REAL 02 · CRECIMIENTO</span>
+            <h4>Opción de Expansión a 2.º Local</h4>
+            <p>
+              En escenario optimista, el local alcanza el <strong>80% de capacidad</strong> en Año 4 y acumula <strong>+87.368 € de caja ya en Año 3</strong>, autofinanciando la apertura de una segunda Gyozería (40k € capex) con economías de escala en compras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-stamp">餃</span>
+        <div>
+          <strong>LA GYOZERÍA · MADRID</strong>
+          <p>Proyecto académico y financiero desarrollado para <strong>FACA Challenge II</strong> (ICAI — Universidad Pontificia Comillas, 2026).</p>
+        </div>
+      </div>
+      <div class="footer-team">
+        <span class="mono-xs">EQUIPO FUNDADOR</span>
+        <p>Pedro Marcos · Juan Lorente · Andrés Sánchez · Paula Sánchez Bodas · Juan Camarero De La Torre · Juan Buezo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
