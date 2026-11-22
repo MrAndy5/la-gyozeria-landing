@@ -19,7 +19,7 @@ const MENU_ITEMS = [
 
 const SCENARIOS = {
   pessimistic: {
-    desc: "Escenario Pesimista: −15% pedidos (119/día en Y3), −3% ticket, +8% coste comida/envase, 30% delivery y +5% costes fijos. CFFA negativo los 5 años → aquí brilla la opción real de abandono.",
+    desc: "Escenario Pesimista: −15% pedidos (81/día en Y1 · 119/día en Y3), −3% ticket, +8% coste comida, 30% delivery y +5% costes fijos. Activa la opción de abandono al final de Y1 (limita pérdida de −120,9k € a −83,5k €).",
     npv: "−120.914 €",
     decision: "REJECT · VAN < 0",
     accept: false,
@@ -34,7 +34,7 @@ const SCENARIOS = {
     cffa: [-47500, -41251, -23137, -10250, -7667, -10521],
   },
   base: {
-    desc: "Escenario Base: 95 → 145 pedidos/día (140 en Y3), ticket 7,54 € (+2,5–3%/año), 25% delivery, tasa de descuento nominal 12,0% (Bono 10Y 4,2% + prima 7,8%).",
+    desc: "Escenario Base: 95 → 145 pedidos/día (125 en Y2 → activa opción de expansión a 2.º local: +24.971 € hoy), ticket 7,54 €, 25% delivery, k = 12,0% nominal.",
     npv: "+31.324 €",
     decision: "ACCEPT · VAN > 0",
     accept: true,
@@ -49,7 +49,7 @@ const SCENARIOS = {
     cffa: [-47500, -7548, 20148, 36066, 38681, 33921],
   },
   optimistic: {
-    desc: "Escenario Optimista: +10% pedidos (154/día en Y3 · 80% cap. en Y4), +3% ticket, −5% coste comida, 20% delivery y −3% costes fijos. Autofinancia la expansión a un 2.º local.",
+    desc: "Escenario Optimista: +10% pedidos (138 en Y2 · 154 en Y3), +3% ticket, −5% coste comida, 20% delivery y −3% costes fijos. Expansión al final de Y2 aporta +112.225 € hoy (VAN rama = +253.000 €).",
     npv: "+140.775 €",
     decision: "ACCEPT · VAN > 0",
     accept: true,
